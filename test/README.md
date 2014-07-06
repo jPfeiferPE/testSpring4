@@ -2,7 +2,6 @@
 
 ## Getting Started ##
 
-
 The application uses the latest open-source libraries and projects:
 
     - JAVA 1.7
@@ -36,6 +35,10 @@ You can create the war project by typing:
 It's also possible deploy on tomcat if you configure your tomcat-users.xml and maven settings.xml.
 
 `mvn tomcat:deploy`
+
+Welcome url:
+
+`http://localhost:8080/test`
 
 The application uses H2 Database.  To populate the Developer table, you can use curl:
 
